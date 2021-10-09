@@ -1,0 +1,583 @@
+@font-face {
+    font-family: 'Latin Modern Math';
+    src: url('latin-modern-math.woff2') format('woff2'),
+         url('latin-modern-math.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono 8';
+    src: url('latin-modern-mono-8-regular.woff2') format('woff2'),
+         url('latin-modern-mono-8-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono 9';
+    src: url('latin-modern-mono-9-regular.woff2') format('woff2'),
+         url('latin-modern-mono-9-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono 10';
+    src: url('latin-modern-mono-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono 10';
+    src: url('latin-modern-mono-10-italic.woff2') format('woff2'),
+         url('latin-modern-mono-10-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono 12';
+    src: url('latin-modern-mono-12-regular.woff2') format('woff2'),
+         url('latin-modern-mono-12-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Caps 10';
+    src: url('latin-modern-mono-caps-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-caps-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Caps 10';
+    src: url('latin-modern-mono-caps-10-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-caps-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light 10';
+    src: url('latin-modern-mono-light-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-light-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light 10';
+    src: url('latin-modern-mono-light-10-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-light-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light 10';
+    src: url('latin-modern-mono-light-10-bold.woff2') format('woff2'),
+         url('latin-modern-mono-light-10-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light 10';
+    src: url('latin-modern-mono-light-10-bold-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-light-10-bold-oblique.woff') format('woff');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light Cond 10';
+    src: url('latin-modern-mono-light-cond-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-light-cond-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Light Cond 10';
+    src: url('latin-modern-mono-light-cond-10-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-light-cond-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop 10';
+    src: url('latin-modern-mono-prop-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-prop-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop 10';
+    src: url('latin-modern-mono-prop-10-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-prop-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop Light 10';
+    src: url('latin-modern-mono-prop-light-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-prop-light-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop Light 10';
+    src: url('latin-modern-mono-prop-light-10-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-prop-light-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop Light 10';
+    src: url('latin-modern-mono-prop-light-10-bold.woff2') format('woff2'),
+         url('latin-modern-mono-prop-light-10-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Prop Light 10';
+    src: url('latin-modern-mono-prop-light-10-bold-oblique.woff2') format('woff2'),
+         url('latin-modern-mono-prop-light-10-bold-oblique.woff') format('woff');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Mono Slanted 10';
+    src: url('latin-modern-mono-slanted-10-regular.woff2') format('woff2'),
+         url('latin-modern-mono-slanted-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 5';
+    src: url('latin-modern-roman-5-regular.woff2') format('woff2'),
+         url('latin-modern-roman-5-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 5';
+    src: url('latin-modern-roman-5-bold.woff2') format('woff2'),
+         url('latin-modern-roman-5-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 6';
+    src: url('latin-modern-roman-6-regular.woff2') format('woff2'),
+         url('latin-modern-roman-6-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 6';
+    src: url('latin-modern-roman-6-bold.woff2') format('woff2'),
+         url('latin-modern-roman-6-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 7';
+    src: url('latin-modern-roman-7-regular.woff2') format('woff2'),
+         url('latin-modern-roman-7-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 7';
+    src: url('latin-modern-roman-7-italic.woff2') format('woff2'),
+         url('latin-modern-roman-7-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 7';
+    src: url('latin-modern-roman-7-bold.woff2') format('woff2'),
+         url('latin-modern-roman-7-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 8';
+    src: url('latin-modern-roman-8-regular.woff2') format('woff2'),
+         url('latin-modern-roman-8-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 8';
+    src: url('latin-modern-roman-8-italic.woff2') format('woff2'),
+         url('latin-modern-roman-8-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 8';
+    src: url('latin-modern-roman-8-bold.woff2') format('woff2'),
+         url('latin-modern-roman-8-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 9';
+    src: url('latin-modern-roman-9-regular.woff2') format('woff2'),
+         url('latin-modern-roman-9-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 9';
+    src: url('latin-modern-roman-9-italic.woff2') format('woff2'),
+         url('latin-modern-roman-9-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 9';
+    src: url('latin-modern-roman-9-bold.woff2') format('woff2'),
+         url('latin-modern-roman-9-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 10';
+    src: url('latin-modern-roman-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 10';
+    src: url('latin-modern-roman-10-italic.woff2') format('woff2'),
+         url('latin-modern-roman-10-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 10';
+    src: url('latin-modern-roman-10-bold.woff2') format('woff2'),
+         url('latin-modern-roman-10-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 10';
+    src: url('latin-modern-roman-10-bold-italic.woff2') format('woff2'),
+         url('latin-modern-roman-10-bold-italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 12';
+    src: url('latin-modern-roman-12-regular.woff2') format('woff2'),
+         url('latin-modern-roman-12-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 12';
+    src: url('latin-modern-roman-12-italic.woff2') format('woff2'),
+         url('latin-modern-roman-12-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 12';
+    src: url('latin-modern-roman-12-bold.woff2') format('woff2'),
+         url('latin-modern-roman-12-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman 17';
+    src: url('latin-modern-roman-17-regular.woff2') format('woff2'),
+         url('latin-modern-roman-17-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Caps 10';
+    src: url('latin-modern-roman-caps-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-caps-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Caps 10';
+    src: url('latin-modern-roman-caps-10-oblique.woff2') format('woff2'),
+         url('latin-modern-roman-caps-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Demi 10';
+    src: url('latin-modern-roman-demi-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-demi-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Demi 10';
+    src: url('latin-modern-roman-demi-10-oblique.woff2') format('woff2'),
+         url('latin-modern-roman-demi-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Dunhill 10';
+    src: url('latin-modern-roman-dunhill-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-dunhill-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Dunhill 10';
+    src: url('latin-modern-roman-dunhill-10-oblique.woff2') format('woff2'),
+         url('latin-modern-roman-dunhill-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 8';
+    src: url('latin-modern-roman-slanted-8-regular.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-8-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 9';
+    src: url('latin-modern-roman-slanted-9-regular.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-9-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 10';
+    src: url('latin-modern-roman-slanted-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 10';
+    src: url('latin-modern-roman-slanted-10-bold.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-10-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 12';
+    src: url('latin-modern-roman-slanted-12-regular.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-12-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Slanted 17';
+    src: url('latin-modern-roman-slanted-17-regular.woff2') format('woff2'),
+         url('latin-modern-roman-slanted-17-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Roman Unslanted 10';
+    src: url('latin-modern-roman-unslanted-10-regular.woff2') format('woff2'),
+         url('latin-modern-roman-unslanted-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 8';
+    src: url('latin-modern-sans-8-regular.woff2') format('woff2'),
+         url('latin-modern-sans-8-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 8';
+    src: url('latin-modern-sans-8-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-8-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 9';
+    src: url('latin-modern-sans-9-regular.woff2') format('woff2'),
+         url('latin-modern-sans-9-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 9';
+    src: url('latin-modern-sans-9-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-9-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 10';
+    src: url('latin-modern-sans-10-regular.woff2') format('woff2'),
+         url('latin-modern-sans-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 10';
+    src: url('latin-modern-sans-10-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 10';
+    src: url('latin-modern-sans-10-bold.woff2') format('woff2'),
+         url('latin-modern-sans-10-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 10';
+    src: url('latin-modern-sans-10-bold-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-10-bold-oblique.woff') format('woff');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 12';
+    src: url('latin-modern-sans-12-regular.woff2') format('woff2'),
+         url('latin-modern-sans-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 12';
+    src: url('latin-modern-sans-12-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-12-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 17';
+    src: url('latin-modern-sans-17-regular.woff2') format('woff2'),
+         url('latin-modern-sans-17-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans 17';
+    src: url('latin-modern-sans-17-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-17-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Demi Cond 10';
+    src: url('latin-modern-sans-demi-cond-10-regular.woff2') format('woff2'),
+         url('latin-modern-sans-demi-cond-10-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Demi Cond 10';
+    src: url('latin-modern-sans-demi-cond-10-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-demi-cond-10-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Quotation 8';
+    src: url('latin-modern-sans-quotation-8-regular.woff2') format('woff2'),
+         url('latin-modern-sans-quotation-8-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Quotation 8';
+    src: url('latin-modern-sans-quotation-8-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-quotation-8-oblique.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Quotation 8';
+    src: url('latin-modern-sans-quotation-8-bold.woff2') format('woff2'),
+         url('latin-modern-sans-quotation-8-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Latin Modern Sans Quotation 8';
+    src: url('latin-modern-sans-quotation-8-bold-oblique.woff2') format('woff2'),
+         url('latin-modern-sans-quotation-8-bold-oblique.woff') format('woff');
+    font-weight: bold;
+    font-style: oblique;
+}
