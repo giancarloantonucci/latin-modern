@@ -9,6 +9,6 @@ _Latin Modern_ is licensed under the [GUST Font License 1.0][license].
 [license]: http://www.gust.org.pl/projects/e-foundry/licenses
 [license-shield]: https://img.shields.io/badge/License-GFL%201.0-lightgrey
 
-## Usage
+## Usage on the web
 
-Add `https://cdn.jsdelivr.net/gh/giancarloantonucci/latin-modern/font.css` into the header of an HTML document to use it.
+Host it yourself or add `https://cdn.jsdelivr.net/gh/giancarloantonucci/latin-modern/font.css` into the header of an HTML document.
